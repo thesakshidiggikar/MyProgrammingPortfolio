@@ -1,0 +1,233 @@
+ @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Slab:wght@300;400&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ .sidebar {
+     background-color: rgb(85, 85, 85);
+     width: 234px;
+     font-family: 'Playfair Display', serif;
+     height: 100vh;
+     /* display: flex; */
+     font-size: 28px;
+
+
+ }
+
+ .sidebar nav {
+     padding: 45px;
+ }
+
+ .sidebar nav li {
+     list-style: none;
+     font-size: 30px;
+     padding: 12px 0;
+
+ }
+
+ .sidebar nav li a {
+     list-style-type: none;
+     font-size: 17px;
+     padding: 20px 0;
+     text-decoration: none;
+     color: white;
+
+ }
+
+ .main {
+     /* background-color: yellow; */
+     width: 90vw;
+     flex-direction: column;
+     padding: 23px;
+
+ }
+
+ .container {
+     display: flex;
+ }
+
+ .infocontainer {
+     /* background-color: red; */
+     height: 58vh;
+     width: 76vw;
+     margin: 144px auto;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+ }
+
+ .devinfo {
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     margin-left: 40px;
+     justify-content: center;
+ }
+
+ .devpic img {
+     /* margin-top: 30px; */
+     height: 60vh;
+     border-radius: 90%;
+     display: flex;
+
+ }
+
+ .hello {
+     font-size: 55px;
+ }
+
+ .name {
+     font-size: 48px;
+     font-weight: bold;
+     font-family: 'Playfair Display', serif;
+ }
+
+ .moreabout {
+     margin-top: 25px;
+     font-size: 26px;
+ }
+
+ .button {
+     margin-top: 27px;
+
+
+ }
+
+ .button button {
+     padding: 9px 14px;
+     border-radius: 29px;
+     color: white;
+     background-color: rgb(41, 110, 214);
+     font-weight: bold;
+     font-size: 17px;
+     margin: 0 3px;
+     cursor: pointer;
+ }
+
+ .button button:hover {
+     background-color: white;
+     color: rgb(41, 110, 214);
+ }
+
+ .contactfor {
+     padding: 0 80px;
+     padding-top: 94px;
+margin-top: -69px;
+
+ }
+
+ .contactfor h1 {
+     text-align: center;
+
+ }
+
+ .contactfor form div {
+     padding: 10px 0;
+     font-size: 20px;
+ }
+
+ .contactfor form div {
+     padding: 10px 0;
+     font-size: 20px;
+
+ }
+
+ .blogitem {
+     margin: 25px;
+     font-family: 'Franklin Gothic ', sans-serif;
+     font-size: 18px;
+ }
+
+ h1 {
+     margin: 23px;
+     font-size: 45px;
+ }
+
+ .blogcontaier button {
+     padding: 9px 50px;
+     border-radius: 29px;
+     color: white;
+     background-color: rgb(41, 110, 214);
+     font-weight: lighter;
+     font-size: 17px;
+     margin: 20px 3px;
+     cursor: pointer;
+ }
+
+ .blogcontaier button:hover {
+     background-color: white;
+     color: rgb(41, 110, 214);
+     font-family: Verdana,  sans-serif;
+
+ }
+
+
+ .intro {
+     margin: 19px 5px;
+ }
+
+ .intro h2 {
+     margin: 18px;
+ }
+
+ .intro p {}
+
+ .skillontaineritem {
+     padding: 12px;
+ }
+
+ .skillitem{
+    display: flex;
+    align-items: center;
+ }
+ .skills {
+     width: 254px;
+     height: 10px;
+     border: black solid;
+     border-width: 1px;
+ }
+
+ .devpic12 {
+     height: 60vh;
+     /* border: black solid; */
+     border-radius: 90px;
+     display: flex;
+
+ }
+
+ .devinfo .devpic {
+     margin-left: 600px;
+     margin-top: -400px;
+ }
+
+
+ .infocontainer form {
+     background-color: yellow;
+     align-items: center;
+     justify-content: none;
+     height: 100px;
+
+ }
+ .tetxtconrol{
+    width: 800px;
+ }
+.mainly{
+    justify-content: space-between;
+
+}
+
+#more {display: none;}
+
+.contactfor form{
+  
+  
+    height: 340px;
+    width: 450px;
+  
+    justify-content: space-around;
+    align-items: center;
+
+}
